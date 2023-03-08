@@ -54,17 +54,34 @@ header nav ul li {
   aside {
     flex: 1;
     background-color: #b9c6ae;
-    padding: 80px;
-    text-align: center;
     display: inline-block;
   }
-  main aside h1{
-    height: 50px;
+  .side1{
+    height:200px;
     font-size: 35px;
-    border-right: 5px blue;
-    background-color: #fff;
+    border-right: 5px solid black;
+    text-align:right;
+    padding:5px;
+    margin-top: 0px;
 
   } 
+  .side2{
+    height:200px;
+    font-size: 35px;
+    border-right: 5px solid red;
+    text-align:right;
+    padding:5px;
+    margin-top: 0px;
+  }
+
+  .side3{
+    height:200px;
+    font-size: 35px;
+    border-right: 5px solid red;
+    text-align:right;
+    padding:5px;
+    margin-top: 0px;
+  }
   
   
   footer {
