@@ -3,6 +3,14 @@
 ## Description
 The purpose of this webpage was to create a place where my projects can be showcased and all be held in one place.This is important becasue it allows for me to acces all of them at once since each photo has a link to one the deployed pages. Throughtout this procces one of the main goaLs was to create a webpage that not only has all of the projects that have been completed on it but its all accesiable but the use of other devices like a smart phone or table. understanding how all these features coresponed together was probably the hardest part of this project. But with that there was so much that i was abkle to learn and groew my knowlage even further. 
 
+<img width="1440" alt="Screenshot 2023-03-09 at 2 46 21 PM" src="https://user-images.githubusercontent.com/125928091/224179032-1dead291-de7f-4e91-bfe2-9d2594a98ad4.png">
+
+<img width="1162" alt="Screenshot 2023-03-09 at 2 46 43 PM" src="https://user-images.githubusercontent.com/125928091/224179101-a7556ca9-0fda-44c9-a4b1-9af25d54dc2d.png">
+
+<img width="1440" alt="Screenshot 2023-03-09 at 2 46 48 PM" src="https://user-images.githubusercontent.com/125928091/224179162-90e67ab2-3bc1-46f9-8e17-fa1e7d5c65e5.png">
+
+https://kryptekhd.github.io/Greg-First-Portfolio/
+
 
 ## Installation
 
