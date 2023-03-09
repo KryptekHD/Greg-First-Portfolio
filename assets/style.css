@@ -19,24 +19,16 @@ header h1 {
     background-color: rgb(157, 190, 190);
     padding: 10px;
 }
-
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+nav {
+  display: flex;
+  background-color: #13293d;
+  text-align: center;
 }
 
-header nav ul {
-    list-style-type: none;
+nav a {
+  color: white;
+  padding: 14px 20px;
 }
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
- 
 
  a{
     text-decoration: underline white;
@@ -53,33 +45,60 @@ main {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
-  padding: 80px;
-  text-align: center;
-  height:auto;
+  padding-left: 80px;
+  font-size:30px;
+  border-right: 5px solid black;
+  margin-bottom: 10px;
+
 }
+
 .product-intro {
   flex: 4;
   background-color: #fff;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   
 }
 p{
-  background-color: #987ad3;
-  height:auto;
-  margin-bottom:none;
-
+  margin:none;
+  text-align: center;
+  display:flex;
 }
 
+.end{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 1 100%;
+  text-align: center;
+  padding-bottom: 0%;
+  height: 100px;
+}
+.end a{
+  padding: 5%;
+  width: 100%;
+  color:black;
+  font-size: 20px;
+}
 
-
-footer {
-  flex:4;
+/* footer{
+  flex: 4;
   padding: 20px;
   text-align: center;
   background: #13293d;
-  color: #fff;
+  height: 20%;
+  
 }
+
+footer a{
+  padding:5px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+} */
 
 
 .products {
@@ -91,13 +110,37 @@ footer {
   justify-content: center;
 }
 
+.one {
+  padding: 10px;
+  flex: 0 1 100%;
+  margin-bottom: 10px;
+  padding-bottom: 0%;
+  width:100%;
+}
+.one p{
+
+  text-align: center;
+}
+.two {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  flex: 0 1 100%;
+  margin-bottom: 0%;
+  padding: 10px;
+}
+
+.two img {
+  width: 100%;
+}
 
 .card {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
-  flex: 0 0 400px;
+  flex: 0 2 400px;
+  margin: 3px;
 }
 
 .card header {
@@ -114,7 +157,25 @@ footer {
 
 @media screen and (max-width: 768px) {
   main,
-  nav {
+  nav{
+    flex-direction: column;
+  }
+  aside{
+    text-align: center;
+    border-bottom: 5px solid black;
+    border-right:none;
+  }
+  div a{
     flex-direction: column;
   }
 }
+.card:hover{
+  box-shadow: 5px 10px 25px rgba(52, 20, 197, 0.4);
+}
+.two:hover{
+  box-shadow: 5px 10px 25px rgba(52, 20, 197, 0.4);
+}
+
+  a:focus{
+    color:red;
+  }
